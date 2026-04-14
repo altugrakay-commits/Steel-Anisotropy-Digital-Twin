@@ -4,7 +4,7 @@
 
 # 1. Instantiate the Data Processor and load the Ovako CSV
 # (Uses the class defined in Block 2)
-flange_test = MaterialDataProcessor('smart_flange_data.csv')
+flange_test = MaterialDataProcessor('data/ovako_100cr6_variants.csv')
 flange_test.load()
 
 # 2. Define the global rotation range (0 to 180 degrees)
