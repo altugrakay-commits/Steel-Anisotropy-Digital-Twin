@@ -86,6 +86,7 @@ plt.legend(frameon=True, shadow=True, loc='best')
 # Final output
 plt.tight_layout()
 plt.show()
+plt.savefig("outputs/comparison_plot.png")
 
 # ==========================================
 # 8. RESULTS VALIDATION & DATA EXPORT
